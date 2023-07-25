@@ -1,0 +1,127 @@
+project-root/
+  ├── backend/
+  │   ├── models/
+  │   │   ├── User.js
+  │   │   ├── TableMetadata.js
+  │   │   ├── RelationshipHistory.js
+  │   │   ├── ActivityLog.js
+  │   │   ├── CustomView.js
+  │   │   ├── DataVersion.js
+  │   │   └── ... (Other dynamically created models)
+  │   ├── middlewares/
+  │   │   ├── authentication.js
+  │   │   ├── authorization.js
+  │   │   ├── requestValidation.js
+  │   │   ├── errorHandling.js
+  │   │   ├── logger.js
+  │   │   ├── cors.js
+  │   │   ├── compression.js
+  │   │   ├── rateLimiting.js
+  │   │   ├── cache.js
+  │   │   ├── csrfProtection.js
+  │   │   └── sessionManagement.js
+  │   ├── controllers/
+  │   │   ├── userController.js
+  │   │   ├── tableController.js
+  │   │   ├── relationshipController.js
+  │   │   ├── activityLogController.js
+  │   │   ├── customViewController.js
+  │   │   └── ... (Other controllers)
+  │   ├── routes/
+  │   │   ├── userRoutes.js
+  │   │   ├── tableRoutes.js
+  │   │   ├── relationshipRoutes.js
+  │   │   ├── activityLogRoutes.js
+  │   │   ├── customViewRoutes.js
+  │   │   └── ... (Other route files)
+  │   ├── services/
+  │   │   ├── userService.js
+  │   │   ├── tableService.js
+  │   │   ├── relationshipService.js
+  │   │   ├── activityLogService.js
+  │   │   ├── customViewService.js
+  │   │   ├── dataVersionService.js
+  │   │   └── ... (Other services)
+  │   ├── validators/
+  │   │   ├── userValidators.js
+  │   │   ├── tableValidators.js
+  │   │   ├── relationshipValidators.js
+  │   │   ├── dataValidators.js
+  │   │   └── ... (Other validators)
+  │   ├── utils/
+  │   │   ├── errorHandler.js
+  │   │   ├── logger.js
+  │   │   ├── encryption.js
+  │   │   ├── dataFormatter.js
+  │   │   └── ... (Other utility files)
+  ├── tests/
+  │   ├── user.test.js
+  │   ├── table.test.js
+  │   ├── relationship.test.js
+  │   ├── activityLog.test.js
+  │   ├── customView.test.js
+  │   ├── dataVersion.test.js
+  │   ├── authService.test.js
+  │   ├── userService.test.js
+  │   ├── tableService.test.js
+  │   ├── relationshipService.test.js
+  │   ├── activityLogService.test.js
+  │   ├── customViewService.test.js
+  │   ├── dataVersionService.test.js
+  │   ├── userValidator.test.js
+  │   ├── tableValidator.test.js
+  │   ├── relationshipValidator.test.js
+  │   ├── dataValidator.test.js
+  │   ├── authenticationMiddleware.test.js
+  │   ├── authorizationMiddleware.test.js
+  │   ├── requestValidationMiddleware.test.js
+  │   ├── errorHandlingMiddleware.test.js
+  │   ├── loggerMiddleware.test.js
+  │   ├── corsMiddleware.test.js
+  │   ├── compressionMiddleware.test.js
+  │   ├── rateLimitingMiddleware.test.js
+  │   ├── cacheMiddleware.test.js
+  │   ├── csrfProtectionMiddleware.test.js
+  │   ├── sessionManagementMiddleware.test.js
+  │   └── ... (Other test files)
+  │   └── app.js
+  └── ...
+frontend/
+  ├── public/
+  │   ├── index.html
+  │   └── favicon.ico
+  ├── src/
+  │   ├── assets/
+  │   │   └── images/
+  │   ├── components/
+  │   │   ├── common/
+  │   │   │   ├── Header.js
+  │   │   │   ├── Footer.js
+  │   │   │   └── ...
+  │   │   ├── pages/
+  │   │   │   ├── Home.js
+  │   │   │   ├── Login.js
+  │   │   │   ├── Register.js
+  │   │   │   ├── UserProfile.js
+  │   │   │   ├── TableListing.js
+  │   │   │   ├── TableDetails.js
+  │   │   │   ├── CreateTable.js
+  │   │   │   ├── EditTable.js
+  │   │   │   ├── ActivityLog.js
+  │   │   │   ├── CustomView.js
+  │   │   │   ├── DataVersion.js
+  │   │   │   └── ...
+  │   │   └── ...
+  │   ├── services/
+  │   │   ├── api.js
+  │   │   ├── auth.js
+  │   │   └── ...
+  │   ├── utils/
+  │   │   ├── helpers.js
+  │   │   └── ...
+  │   ├── App.js
+  │   ├── index.js
+  │   └── styles.css
+  ├── package.json
+  ├── package-lock.json
+  └── .env

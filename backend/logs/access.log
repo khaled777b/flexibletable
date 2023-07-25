@@ -107,3 +107,4 @@
 [2023-07-25T19:12:36.902Z] GET /api/users from ::ffff:127.0.0.1
 [2023-07-25T19:15:32.901Z] PUT /api/users/:userId from ::ffff:127.0.0.1
 [2023-07-25T19:16:25.996Z] GET /api/users/64c01e6d13c8ffa2c52f2b7b from ::ffff:127.0.0.1
+[2023-07-25T20:47:27.598Z] GET /ws from ::1
